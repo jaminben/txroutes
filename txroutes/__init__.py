@@ -17,7 +17,7 @@ class RoutableResource(Resource):
 
         from twisted.internet import reactor
         from twisted.web.server import Site
-        from txsimpleroutes import RoutableResource
+        from txroutes import RoutableResource, route
         
         # Create a Controller
         class Controller(RoutableResource):
